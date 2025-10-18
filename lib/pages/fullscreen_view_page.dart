@@ -4,8 +4,7 @@ class FullscreenViewPage extends StatelessWidget {
   final String title;
   final String? thumbnailUrl;
 
-  /// Ở bản tối giản, fullscreen chỉ hiển thị lại cùng nội dung.
-  /// Nếu bạn muốn “share” khung đã vẽ sẵn, có thể truyền thêm image bytes.
+
   final GlobalKey? repaintSourceKey;
 
   const FullscreenViewPage({
@@ -47,3 +46,4 @@ class FullscreenViewPage extends StatelessWidget {
     );
   }
 }
+
